@@ -19,13 +19,6 @@ class Main{
     static boolean welcome = true;
     public static void main(String[] args) {
         home();
-//        MyHashMap<String,User> socialMedia = new MyHashMap<>();
-//        User saeed = new User();
-//        socialMedia.put("mohammad", saeed);
-//        User Sam = new User();
-//        socialMedia.put("sam", Sam);
-//        User danial = new User();
-//        socialMedia.put("danial", danial);
 
 
     }
