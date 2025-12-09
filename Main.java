@@ -13,6 +13,7 @@ class Entry{
     int data;
 }
 class Main{
+
     public static Scanner input = new Scanner(System.in);
     static MyHashMap <String, User> socialMedia = new MyHashMap<>();
     static boolean welcome = true;
