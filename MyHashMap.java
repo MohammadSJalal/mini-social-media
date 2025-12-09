@@ -30,7 +30,10 @@ public class MyHashMap <K,V> {
             SKey = (String)key;
         }
         else SKey = key.toString();
-        V value = (V)map[myHashFunction(SKey)].value;
+        V value = null;
+        if (map[myHashFunction(SKey)] != null){
+            value = (V)map[myHashFunction(SKey)].value;
+        }
         return value;
     }
     public int size() {
