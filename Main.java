@@ -3,15 +3,6 @@ import java.util.Scanner;
 import java.util.Stack;
 import java.util.HashMap;
 
-class Term {
-    int exp;
-    int coeff;
-}
-class Entry{
-    int col;
-    int row;
-    int data;
-}
 class Main{
 
     public static Scanner input = new Scanner(System.in);
