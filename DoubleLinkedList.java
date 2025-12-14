@@ -1,5 +1,5 @@
 import java.util.EmptyStackException;
-public class DoubleLinkedList <T> {
+final public class DoubleLinkedList <T> {
     private Node <T> Nil;
     private Node <T> iterate;
     private int size;

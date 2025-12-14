@@ -1,4 +1,4 @@
-public class PriorityQueue {
+final public class PriorityQueue {
     private int capacity , numberOfPriorities , size;
     private Queue[] queueOfPriorities ;
     public PriorityQueue(int capacity , int numberOfPriorities) {

@@ -1,7 +1,7 @@
 import javax.management.openmbean.KeyAlreadyExistsException;
 
 
-public class MyHashMap <K,V> {
+final public class MyHashMap <K,V> {
     private HashNode <K,V>[] map ;
     private LinkedList<K> keys ;
     private int size;

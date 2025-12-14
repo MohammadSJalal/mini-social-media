@@ -1,16 +1,20 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class User {
+final public class User {
     private Scanner input = new Scanner(System.in);
     private String [] data ; // name , lastname , birthday , subscribe
     private String username;
     private String password;
     private DynamicQueue <String> friendsRequest;
+    private LinkedList<Message> privateMessages;
+    private LinkedList<Post> posts;
     private LinkedList<String> friends;
     public User(String username, String password) {
         this.username = username;
         this.password = password;
+        this.data = new String[4];
+        this.privateMessages = new LinkedList<>();
         this.friendsRequest = new DynamicQueue<>();
     }
     public String getUsername() {
@@ -83,6 +87,10 @@ public class User {
         }
     }
     public void message() {
+        String text ;
+        System.out.println("please enter your message : ");
+        text = input.nextLine();
+        Message ms = new Message(text,username,data[0],data[1]);
 
     }
     public void posts() {

@@ -1,4 +1,4 @@
-public class CircularLinkList {
+final public class CircularLinkList {
     private Node <Integer> head ;
     private Node <Integer> tail ;
     public CircularLinkList() {

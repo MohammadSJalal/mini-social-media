@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Stack;
 
-public class Queue {
+final public class Queue {
     private int front, rear, capacity, size;
     private boolean withoutDuplicatedValue;
     private short reverseOrder;

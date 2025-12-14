@@ -1,6 +1,6 @@
 import java.util.EmptyStackException;
 
-public class DynamicStack <T> {
+final public class DynamicStack <T> {
     Node <T> top;
     public boolean isEmpty() {
         return top == null;

@@ -1,6 +1,6 @@
 import java.util.EmptyStackException;
 
-public class DynamicQueue <T> {
+final public class DynamicQueue <T> {
     Node <T> front , rear;
     public DynamicQueue() {
         front = rear = null;

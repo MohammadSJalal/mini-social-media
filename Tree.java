@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Tree {
+final public class Tree {
     TreeNode root;
     public void addNewNode(int value, int index , int parentIndex , boolean right) {
         if (root == null) {

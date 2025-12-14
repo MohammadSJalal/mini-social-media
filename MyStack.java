@@ -1,4 +1,4 @@
-public class MyStack {
+final public class MyStack {
     private int top = -1;
     private int [] stack;
     private int capacity;
